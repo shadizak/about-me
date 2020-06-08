@@ -1,0 +1,28 @@
+
+
+h1 {
+    text-align: center;
+    color: bisque;
+    font-family: cursive;
+}
+
+body {
+    background-image: url(https://cdn.hipwallpaper.com/i/30/95/68XAet.jpg);
+}
+ p {
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+}
+h2 {
+    text-align: center;
+    color: burlywood;
+    font-family: monospace;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+}
+
