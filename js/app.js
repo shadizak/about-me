@@ -1,5 +1,5 @@
 'use strict';
-
+var grade = 0; 
 
 var str = window.prompt(" Enter your name ", "haneen");
 
@@ -11,6 +11,7 @@ switch (firstQuestion.toLowerCase()) {
     case 'yes':
         //console.log('user answer is ', firstQuestion)
         alert("that\s true !");
+        grade++; // + one point
         break;
 
     case 'no':
@@ -23,6 +24,7 @@ switch (secondQuestion.toLowerCase()) {
     case 'yes':
         //console.log('user answer is ', secondQuestion)
         alert("that\s true !");
+        grade++;
         break;
 
     case 'no':
@@ -40,6 +42,8 @@ switch (thirdQuestion.toLowerCase()) {
     case 'no':
         //console.log('user answer is', thirdQuestion)
         alert('That\'s true');
+        grade++;
+       
 
 }
 var fourthQuestion = prompt('do you think i can talk more than one language ?').toLowerCase();
@@ -47,6 +51,7 @@ switch (fourthQuestion.toLowerCase()) {
     case 'yes':
         //console.log('user answer is ', fourthQuestion)
         alert("that\s true ");
+        grade++;
         break;
 
     case 'no':
@@ -64,9 +69,61 @@ switch (fifthQuestion.toLowerCase()) {
 
     case 'no':
         //console.log('user answer is', fifthQuestion)
-        alert('That\'s true');
+        alert('That\'s true'); grade++;
 
 }
 var goodBye = alert("Good job " + str);
 
+//question 6 
+var answer = 7
 
+for (var i= 0 ; i <=3;i++) {
+
+    var question6 = prompt('enter your lucky number');
+    if (question6 == answer){
+        alert('that is true');
+        grade++;
+        break;
+        
+    }
+ if (question6 < answer){
+     alert("too low");
+ }
+    if (question6 > answer )  {
+        alert("too high")
+    }  
+
+    }
+    alert("the correct answer is " + answer);
+
+
+var answers = new Array("jordan","saudi arabia","turkey");
+for(var i = 0 ; i<=5 ; i++){
+    console.log(i);
+    
+   
+    var question7 = prompt("what places i have visited ?");
+    var j = 0;
+    while(j<3){
+
+        if(answers[j] == question7){
+            alert("that is correct")
+            grade++;
+            break;
+        }
+        else{
+            j++;
+        }
+
+    }
+    if(answers[j] == question7){
+        break;
+    }
+      
+}
+
+alert("the correct answers are: "+ answers);
+console.log(answers)
+
+alert('you answerd ' + grade + " correctly from 7 questions");
+console.log(grade);
