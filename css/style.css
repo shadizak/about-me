@@ -24,11 +24,12 @@ ul {
     text-align: center;
     color: aliceblue;
     font-family: cursive;
+    list-style: none;
 }
 ol {
     
     text-align: center;
-    color: darkgray;
+    color: rgb(233, 224, 224);
     font-family: cursive;
     font-size: large;
 }
