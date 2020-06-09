@@ -25,4 +25,11 @@ ul {
     color: aliceblue;
     font-family: cursive;
 }
+ol {
+    
+    text-align: center;
+    color: darkgray;
+    font-family: cursive;
+    font-size: large;
+}
 

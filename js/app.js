@@ -6,73 +6,66 @@ var str = window.prompt(" Enter your name ", "haneen");
 var welcome = "Welcome " + str;
 alert(welcome);
 
+var firstQuestion = prompt('1st of July is my birthday date?').toLowerCase();
+switch (firstQuestion.toLowerCase()) {
+    case 'yes':
+        //console.log('user answer is ', firstQuestion)
+        alert("that\s true !");
+        break;
 
+    case 'no':
+        //console.log('user answer is', firstQuestion)
+        alert('That\'s false');
+}
 
-var questionOne = prompt('was I born in the 1st of July ?', "yes");
-while (questionOne == 'yes' || 'no') {
-   if (questionOne == 'yes') {
-       alert("thats true");
-    break;}
-    if (questionOne == 'no')  {
-        alert("thats false");
-    break;} else{
-        
-    }
+var secondQuestion = prompt('do you think i like cats?').toLowerCase();
+switch (secondQuestion.toLowerCase()) {
+    case 'yes':
+        //console.log('user answer is ', secondQuestion)
+        alert("that\s true !");
+        break;
 
-       
-   }
-   //console.log('user answer is ' + questionOne)
-   //the answer is yes
+    case 'no':
+        //console.log('user answer is', secondQuestion)
+        alert('That\'s false');
+}
 
-   var questionTwo = prompt('do you think i like cats?', "yes");
-   while (questionTwo == 'yes' || 'no') {
-      if (questionTwo == 'yes') {
-          alert("thats true, I love cats!");
-       break;}
-       if (questionTwo == 'no')  {
-           alert("thats false, I love cats! ");
-       break;}
-          
-      }
-      //console.log('user answer is ' + questionTwo)
-      //the answer is yes
-      var questionThree = prompt('do I talk alot?', "no");
-      while (questionThree == 'yes' || 'no') {
-         if (questionThree == 'yes') {
-             alert("thats false");
-          break;}
-          if (questionThree == 'no')  {
-              alert("thats true");
-          break;}
-             
-         }
-         //console.log('user answer is ' + questionThree)
-         //the answer is no
-         
-         var questionFour = prompt('do you think i can talk more than one language ?', "yes");
-         while (questionFour == 'yes' || 'no') {
-            if (questionFour == 'yes') {
-                alert("thats true, I can talk Arabic, English & Turkish");
-             break;}
-             if (questionFour == 'no')  {
-                 alert("thats false");
-             break;}
-                
-            }
-            //console.log('user answer is ' + questionFour)
-            //the answer is yes
-            
-            var questionFive = prompt('I have a Toyota car ?', "no");
-            while (questionFive == 'yes' || 'no') {
-               if (questionFive == 'yes') {
-                   alert("thats false");
-                break;}
-               if (questionFive == 'no') {
-                    alert("thats true");
-                break;}
-                   
-               }
-               //console.log('user answer is ' + questionFive)
-               //the answer is no
+var thirdQuestion = prompt('do I talk alot?').toLowerCase();
+switch (thirdQuestion.toLowerCase()) {
+    case 'yes':
+        //console.log('user answer is ', thirdQuestion)
+        alert("that\s false ");
+        break;
 
-               var goodBye = prompt("Good Bye " + str);
+    case 'no':
+        //console.log('user answer is', thirdQuestion)
+        alert('That\'s true');
+
+}
+var fourthQuestion = prompt('do you think i can talk more than one language ?').toLowerCase();
+switch (fourthQuestion.toLowerCase()) {
+    case 'yes':
+        //console.log('user answer is ', fourthQuestion)
+        alert("that\s true ");
+        break;
+
+    case 'no':
+        //console.log('user answer is', fourthQuestion)
+        alert('That\'s false');
+
+}
+
+var fifthQuestion = prompt('I have a Toyota car?').toLowerCase();
+switch (fifththQuestion.toLowerCase()) {
+    case 'yes':
+        //console.log('user answer is ', fifthQuestion)
+        alert("that\s false ");
+        break;
+
+    case 'no':
+        //console.log('user answer is', fifthQuestion)
+        alert('That\'s true');
+
+}
+var goodBye = alert("Good job " + str);
+
