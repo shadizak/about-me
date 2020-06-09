@@ -69,16 +69,4 @@ switch (fifthQuestion.toLowerCase()) {
 }
 var goodBye = alert("Good job " + str);
 
-var i = 0
-var answer = 4;
-var guess = prompt('guess a number ?');
-while(i=0;i<4;i++)
-{ //console.log(i);
-    if (guess>answer);
-    alert("this number is bigger");
-    break;
-    if (guess<answer);
-    alert ("this number is lower");
-    break;
-} 
 
