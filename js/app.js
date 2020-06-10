@@ -8,13 +8,15 @@ alert(welcome);
 
 var firstQuestion = prompt('1st of July is my birthday date?').toLowerCase();
 switch (firstQuestion.toLowerCase()) {
-    case 'yes':
+    case 'yes' :
+        case 'y' :
         //console.log('user answer is ', firstQuestion)
         alert("that\s true !");
         grade++; // + one point
         break;
 
     case 'no':
+        case 'n':
         //console.log('user answer is', firstQuestion)
         alert('That\'s false');
 }
@@ -22,12 +24,14 @@ switch (firstQuestion.toLowerCase()) {
 var secondQuestion = prompt('do you think i like cats?').toLowerCase();
 switch (secondQuestion.toLowerCase()) {
     case 'yes':
+        case 'y':
         //console.log('user answer is ', secondQuestion)
         alert("that\s true !");
         grade++;
         break;
 
     case 'no':
+        case 'n':
         //console.log('user answer is', secondQuestion)
         alert('That\'s false');
 }
@@ -35,11 +39,13 @@ switch (secondQuestion.toLowerCase()) {
 var thirdQuestion = prompt('do I talk alot?').toLowerCase();
 switch (thirdQuestion.toLowerCase()) {
     case 'yes':
+        case 'y':
         //console.log('user answer is ', thirdQuestion)
         alert("that\s false ");
         break;
 
     case 'no':
+        case 'n':
         //console.log('user answer is', thirdQuestion)
         alert('That\'s true');
         grade++;
@@ -63,11 +69,13 @@ switch (fourthQuestion.toLowerCase()) {
 var fifthQuestion = prompt('I have a Toyota car?').toLowerCase();
 switch (fifthQuestion.toLowerCase()) {
     case 'yes':
+        case 'y':
         //console.log('user answer is ', fifthQuestion)
         alert("that\s false ");
         break;
 
     case 'no':
+        case 'n':
         //console.log('user answer is', fifthQuestion)
         alert('That\'s true'); grade++;
 
@@ -91,7 +99,9 @@ for (var i= 0 ; i <=3;i++) {
  }
     if (question6 > answer )  {
         alert("too high")
-    }  
+    } else {
+        alert('you didn\'nt enter a number !');
+    } 
 
     }
     alert("the correct answer is " + answer);
