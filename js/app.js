@@ -8,6 +8,8 @@ alert(welcome);
 
 function firstQuestionFun(){
 
+
+    
     var firstQuestion = prompt('1st of July is my birthday date?').toLowerCase();
 
     switch (firstQuestion.toLowerCase()) {
